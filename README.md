@@ -1,8 +1,9 @@
 # ⚡️ Django E-commerce Website
 
-I made this personal project during my summer vacation.
+I made this personal project during my summer vacation as I was learning new stuff so!.
 
 **Technology Stack used :**<br>
+
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" > <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" >  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" > <img src="https://img.shields.io/badge/redis-CC0000.svg?&style=for-the-badge&logo=redis&logoColor=white" > <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" >
 
 ## ⚡️ Main Features
