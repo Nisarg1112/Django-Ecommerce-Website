@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %} Django E-commerce Website {% endblock%}</title>
+    <meta name="keywords" content="{% block keywords %} Home Keywords {% endblock %}">
+    <meta name="description" content="{% block description %} Home description {% endblock %}">
+
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+
+    <!-- All CSS is here
+	============================================ -->
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static ''%}assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/vendor/signericafat.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/vendor/cerebrisans.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/vendor/simple-line-icons.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/vendor/elegant.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/vendor/linear-icon.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/plugins/easyzoom.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/plugins/jquery-ui.css">
+    <link rel="stylesheet" href="{% static ''%}assets/css/style.css">
+
+    <!-- Use the minified version files listed below for better performance and remove the files listed above
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css"> -->
+
+    <!-- jQuery !-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"> </script>
+    <!-- jQuery UI !-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    {% block head %} {% endblock %}
+</head>
+<body>
+{% include 'header.html' %}
+{% block sidebar %} {% endblock %}
+{% block slider %} {% endblock %}
+{% block body %} {% endblock %}
+{% block foot %} {% endblock %}
+
+</body>
+</html>

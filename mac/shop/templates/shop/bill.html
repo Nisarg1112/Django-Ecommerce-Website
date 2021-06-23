@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Bill</title>
+</head>
+<body>
+<h3>Your Order Is Completed</h3>
+<div class="your-order-wrap gray-bg-4">
+    <div class="your-order-info-wrap">
+        <div class="your-order-info">
+            <ul>
+                <li>Product <span>Total</span></li>
+            </ul>
+        </div>
+        <div class="your-order-middle">
+            {% for rs in shopcart %}
+                <ul>
+                    <li>{{ rs.product }} X {{ rs.quantity }} <span>${{ rs.amount }} </span></li>
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="your-order-info order-subtotal">
+            <ul>
+                <li>Subtotal <span>${{ total }}</span></li>
+            </ul>
+        </div>
+        <div class="your-order-info order-total">
+            <ul>
+                <li>Total <span>${{ grand_total }}(with GST) </span></li>
+            </ul>
+        </div>
+    <div class="your-order-info order-code">
+            <ul>
+                <li>Total <span>{{ ordercode }}</span></li>
+            </ul>
+        </div>
+    </div>
+<h3>Thanks For Shopping With Us!</h3>
+</body>
+</html>

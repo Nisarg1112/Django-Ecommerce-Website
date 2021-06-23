@@ -1,0 +1,47 @@
+{% load static %}
+<div class="slider-area bg-gray-2">
+    <div class="hero-slider-active-2 nav-style-1 nav-style-1-green">
+        {% for rs in products_slider %}
+        <div class="single-hero-slider single-hero-slider-hm3 single-animation-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-12 ml-auto">
+                        <div class="row align-items-center slider-animated-1">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                                <div class="hero-slider-content-3 slider-animated-1">
+                                    <h1 class="animated">{{ rs.title }}</h1>
+                                    <p class="animated">{{ rs.description }}</p>
+                                    <h5 class="animated">Price:<span>{{ rs.price }}</span></h5>
+                                    <div class="btn-style-3">
+                                        <a class="animated btn-1-padding-1" href="/product/{{ rs.id }}/{{ rs.slug }}">Shop now <i
+                                                class="icon-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                                <div class="tab-content slider-tab-big-img-wrap jump animated">
+                                    <div id="tshirt-4" class="tab-pane active">
+                                        <div class="slider-tab-big-img slider-tab-big-img-mrg-1">
+                                            <img src="{{ rs.image_1.url }}" alt="My Image/" ">
+                                        </div>
+                                    </div>
+                                    <div id="tshirt-5" class="tab-pane ">
+                                        <div class="slider-tab-big-img slider-tab-big-img-mrg-2">
+                                            <img src="{% static ''%}assets/images/slider/hm-3-slider-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div id="tshirt-6" class="tab-pane">
+                                        <div class="slider-tab-big-img slider-tab-big-img-mrg-3">
+                                            <img src="{% static ''%}assets/images/slider/hm-3-slider-3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
