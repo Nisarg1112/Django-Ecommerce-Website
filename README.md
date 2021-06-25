@@ -5,6 +5,15 @@ I made this personal project during my summer vacation.
 **Technology Stack used :**<br>
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" > <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" >  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" > <img src="https://img.shields.io/badge/redis-CC0000.svg?&style=for-the-badge&logo=redis&logoColor=white" > <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" >
 
+
+## 🎥  Demo Video
+
+You can find the link of Demo video of website <a href="https://www.youtube.com/watch?v=XlS9Rv6rsQk">Here</a>. I have explained all the features also😎!
+
+Or you can click the below image also!
+
+<a href="https://www.youtube.com/watch?v=XlS9Rv6rsQk"><img src="django_web1_Moment.jpg" height=400px title="Click Here to watch Demo Video"></a>
+
 ## ⚡️ Main Features
 
 <ul type='round'>
