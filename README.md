@@ -1,8 +1,9 @@
 # ⚡️ Django E-commerce Website
 
-I made this personal project during my summer vacation.
+I made this personal project during my summer vacation as I was learning new stuff so!.
 
 **Technology Stack used :**<br>
+
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" > <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" >  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" > <img src="https://img.shields.io/badge/redis-CC0000.svg?&style=for-the-badge&logo=redis&logoColor=white" > <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" >
 
 
@@ -28,7 +29,8 @@ I used <strong>ckeditor</strong> which is a <strong>rich text editor</strong>, I
 User can add product to their cart directly from home page or product detail page.</li>
 <li>User can see their cart price and number of products in cart updates as they shop. At shop cart page user can see full shop cart with detailed price and Final Price (with 18% GST).</li>
 <li>On pressing the Place Order button the user would see order confirmation message with Order No., If their order is successfully placed.</li>
-<li>In background, <strong>Celery will send an Email Asynchronously using Redis server</strong> to desired mail id with order confirmation message, Order No. and automatically generated pdf of bill. I used <strong>Jinja templates</strong> to automate the process of generating bill receipt.</li>
+<li>In background, <strong>Celery will send an Email Asynchronously using Redis server</strong> to desired mail id with order confirmation message, Order No. and automatically generated pdf of bill. I used <strong>Jinja templates</strong> to automate the process of generating bill receipt.<br>
+   You can view demo reciept <a href="https://github.com/Nisarg1112/Django-Ecommerce-Website/blob/main/mac/DOH69YM.pdf">here</a>. I know it's very basic, but pretty though😉!</li>
 </ul>
 
 ## ⚡️ How to Use
