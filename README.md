@@ -36,7 +36,7 @@ User can add product to their cart directly from home page or product detail pag
 ## ⚡️ How to Use
 
 
-Just follow 4 simple steps:
+Just follow these simple steps:
 
 1. Clone repository to preserve directory structure<br>
 `git clone https://github.com/Nisarg1112/Django-Ecommerce-Website.git`
@@ -50,13 +50,17 @@ Just follow 4 simple steps:
    `redis 127.0.0.1:6379>` then,
    type `PING` and hit Enter.
 8. You should see output as `PONG`. If that's the case then now you are good to go!
-8. Open cmd and write following commands<br>
+9. Create an account on `https://app.sendgrid.com/`
+10. Get an api key from your account, You can refer their Official <a href="https://docs.sendgrid.com/ui/account-and-settings/api-keys">Documentation</a> for creating an api key
+11. Create a `.env` File. and write following code
+   `SENDGRID_API_KEY = '{PASTE_YOUR_API_KEY_HERE}'`
+12. Open cmd and write following commands<br>
    `cd mac`
-9.  following command will perform required migrations
+13. following command will perform required migrations
    `python manage.py migrate`
-11. following command will start a local server
+14. following command will start a local server
    `python manage.py runserver`
-11. Now, We are all set to go! Enjoyy😎!
+15. Now, We are all set to go! Enjoyy😎!
    
 ## 🙋‍♂️ Helpdesk
 
