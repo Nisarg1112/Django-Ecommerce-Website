@@ -20,7 +20,7 @@ app.autodiscover_tasks()
 env_file = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), '.env')
 dotenv.read_dotenv(env_file)
 
-SENDGRID_API_KEY = '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'
+SENDGRID_API_KEY = '######' #put your sendgrid api key here!
 
 
 @app.task(bind=True)
